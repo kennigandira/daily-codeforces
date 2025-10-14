@@ -8,7 +8,10 @@ for i in range(len(first_string)):
     second_char = second_string[i].lower()
     if(first_char < second_char):
         count -= 1
+        break
     if(first_char > second_char):
         count += 1
+        break
 
 print(count)
+
